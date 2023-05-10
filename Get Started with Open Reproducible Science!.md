@@ -172,27 +172,27 @@ rapid_city_df
     <tr>
       <th>0</th>
       <td>194912</td>
-      <td>58.2</td>
+      <td>58.4</td>
     </tr>
     <tr>
       <th>1</th>
       <td>195012</td>
-      <td>55.4</td>
+      <td>55.6</td>
     </tr>
     <tr>
       <th>2</th>
       <td>195112</td>
-      <td>54.3</td>
+      <td>54.6</td>
     </tr>
     <tr>
       <th>3</th>
       <td>195212</td>
-      <td>59.1</td>
+      <td>59.4</td>
     </tr>
     <tr>
       <th>4</th>
       <td>195312</td>
-      <td>59.6</td>
+      <td>59.8</td>
     </tr>
     <tr>
       <th>...</th>
@@ -202,7 +202,7 @@ rapid_city_df
     <tr>
       <th>69</th>
       <td>201812</td>
-      <td>57.4</td>
+      <td>57.2</td>
     </tr>
     <tr>
       <th>70</th>
@@ -253,8 +253,8 @@ print('You earned {} of 5 points for downloading data'.format(points))
 ```
 
     ✅ Great work! You called a DataFrame.
-    ✅ Great work! You correctly downloaded data.
-    You earned 5 of 5 points for downloading data
+    ❌ Oops - your data are not correct.
+    You earned 1 of 5 points for downloading data
 
 
   > HINT: Check out the `type()` function below - you can use it to check that your data is now in `DataFrame` type object
@@ -309,27 +309,27 @@ rapid_city_df
     <tr>
       <th>0</th>
       <td>1949</td>
-      <td>58.2</td>
+      <td>58.4</td>
     </tr>
     <tr>
       <th>1</th>
       <td>1950</td>
-      <td>55.4</td>
+      <td>55.6</td>
     </tr>
     <tr>
       <th>2</th>
       <td>1951</td>
-      <td>54.3</td>
+      <td>54.6</td>
     </tr>
     <tr>
       <th>3</th>
       <td>1952</td>
-      <td>59.1</td>
+      <td>59.4</td>
     </tr>
     <tr>
       <th>4</th>
       <td>1953</td>
-      <td>59.6</td>
+      <td>59.8</td>
     </tr>
     <tr>
       <th>...</th>
@@ -339,7 +339,7 @@ rapid_city_df
     <tr>
       <th>69</th>
       <td>2018</td>
-      <td>57.4</td>
+      <td>57.2</td>
     </tr>
     <tr>
       <th>70</th>
@@ -390,8 +390,8 @@ print('You earned {} of 5 points for cleaning up years'.format(points))
 ```
 
     ✅ Great work! You called a DataFrame.
-    ✅ Great work! You correctly cleaned up years.
-    You earned 5 of 5 points for cleaning up years
+    ❌ Oops - your data are not correct.
+    You earned 1 of 5 points for cleaning up years
 
 
 <img src="https://static.thenounproject.com/png/3842781-200.png" width=20 style="float: left; padding: 3px" /> Want an EXTRA CHALLENGE? Modify the code to be **more expressive**.
@@ -437,27 +437,27 @@ rapid_city_df
     <tr>
       <th>0</th>
       <td>1949</td>
-      <td>14.555556</td>
+      <td>14.666667</td>
     </tr>
     <tr>
       <th>1</th>
       <td>1950</td>
-      <td>13.000000</td>
+      <td>13.111111</td>
     </tr>
     <tr>
       <th>2</th>
       <td>1951</td>
-      <td>12.388889</td>
+      <td>12.555556</td>
     </tr>
     <tr>
       <th>3</th>
       <td>1952</td>
-      <td>15.055556</td>
+      <td>15.222222</td>
     </tr>
     <tr>
       <th>4</th>
       <td>1953</td>
-      <td>15.333333</td>
+      <td>15.444444</td>
     </tr>
     <tr>
       <th>...</th>
@@ -467,7 +467,7 @@ rapid_city_df
     <tr>
       <th>69</th>
       <td>2018</td>
-      <td>14.111111</td>
+      <td>14.000000</td>
     </tr>
     <tr>
       <th>70</th>
@@ -518,8 +518,8 @@ print('You earned {} of 5 points for converting to Celcius'.format(points))
 ```
 
     ✅ Great work! You called a DataFrame.
-    ✅ Great work! You correctly converted to Celcius.
-    You earned 5 of 5 points for converting to Celcius
+    ❌ Oops - your data are not correct.
+    You earned 1 of 5 points for converting to Celcius
 
 
 <img src="https://static.thenounproject.com/png/3842781-200.png" width=20 style="float: left; padding: 3px" /> Want an **EXTRA CHALLENGE**?
@@ -676,19 +676,19 @@ portland_ME_df
       <th>1</th>
       <td>1895</td>
       <td>2</td>
-      <td>29.6</td>
+      <td>29.7</td>
     </tr>
     <tr>
       <th>2</th>
       <td>1895</td>
       <td>3</td>
-      <td>32.1</td>
+      <td>32.2</td>
     </tr>
     <tr>
       <th>3</th>
       <td>1895</td>
       <td>4</td>
-      <td>36.8</td>
+      <td>36.9</td>
     </tr>
     <tr>
       <th>4</th>
@@ -701,12 +701,6 @@ portland_ME_df
       <td>...</td>
       <td>...</td>
       <td>...</td>
-    </tr>
-    <tr>
-      <th>1486</th>
-      <td>2022</td>
-      <td>11</td>
-      <td>60.0</td>
     </tr>
     <tr>
       <th>1487</th>
@@ -724,17 +718,23 @@ portland_ME_df
       <th>1489</th>
       <td>2023</td>
       <td>2</td>
-      <td>38.8</td>
+      <td>38.7</td>
     </tr>
     <tr>
       <th>1490</th>
       <td>2023</td>
       <td>3</td>
-      <td>40.4</td>
+      <td>40.3</td>
+    </tr>
+    <tr>
+      <th>1491</th>
+      <td>2023</td>
+      <td>4</td>
+      <td>43.9</td>
     </tr>
   </tbody>
 </table>
-<p>1491 rows × 3 columns</p>
+<p>1492 rows × 3 columns</p>
 </div>
 
 
@@ -787,19 +787,19 @@ portland_ME_df
       <th>1</th>
       <td>1895</td>
       <td>2</td>
-      <td>-1.333333</td>
+      <td>-1.277778</td>
     </tr>
     <tr>
       <th>2</th>
       <td>1895</td>
       <td>3</td>
-      <td>0.055556</td>
+      <td>0.111111</td>
     </tr>
     <tr>
       <th>3</th>
       <td>1895</td>
       <td>4</td>
-      <td>2.666667</td>
+      <td>2.722222</td>
     </tr>
     <tr>
       <th>4</th>
@@ -820,12 +820,6 @@ portland_ME_df
       <td>...</td>
     </tr>
     <tr>
-      <th>1486</th>
-      <td>2022</td>
-      <td>11</td>
-      <td>15.555556</td>
-    </tr>
-    <tr>
       <th>1487</th>
       <td>2022</td>
       <td>12</td>
@@ -841,17 +835,23 @@ portland_ME_df
       <th>1489</th>
       <td>2023</td>
       <td>2</td>
-      <td>3.777778</td>
+      <td>3.722222</td>
     </tr>
     <tr>
       <th>1490</th>
       <td>2023</td>
       <td>3</td>
-      <td>4.666667</td>
+      <td>4.611111</td>
+    </tr>
+    <tr>
+      <th>1491</th>
+      <td>2023</td>
+      <td>4</td>
+      <td>6.611111</td>
     </tr>
   </tbody>
 </table>
-<p>1490 rows × 3 columns</p>
+<p>1491 rows × 3 columns</p>
 </div>
 
 
@@ -864,17 +864,17 @@ print(portland_ME_df.groupby('year').mean())
 
           month       temp
     year                  
-    1895    7.0   8.126263
-    1896    6.5   7.097222
-    1897    6.5   8.050926
-    1898    6.5   8.212963
-    1899    6.5   7.925926
+    1895    7.0   8.166667
+    1896    6.5   7.148148
+    1897    6.5   8.101852
+    1898    6.5   8.263889
+    1899    6.5   7.962963
     ...     ...        ...
     2019    6.5   8.861111
     2020    6.5  10.916667
     2021    6.5  10.041667
-    2022    6.5   9.902778
-    2023    2.0   4.203704
+    2022    6.5   9.907407
+    2023    2.5   4.777778
     
     [125 rows x 2 columns]
 
@@ -887,7 +887,7 @@ print(portland_ME_df.groupby('year').mean())
 
 ```python
 portland_ME_df.plot(x='year', y='temp', title="Average Maximum " 
-                   "Annual Temperature in Portland, ME",
+                   "Annual Temperature in Portland, ME Since 1895",
                    ylabel=("Temperature ($^\circ$C)"), xlabel="Years",
                    legend=False)
 ```
@@ -895,7 +895,7 @@ portland_ME_df.plot(x='year', y='temp', title="Average Maximum "
 
 
 
-    <AxesSubplot:title={'center':'Average Maximum Annual Temperature in Portland, ME'}, xlabel='Years', ylabel='Temperature ($^\\circ$C)'>
+    <AxesSubplot:title={'center':'Average Maximum Annual Temperature in Portland, ME Since 1895'}, xlabel='Years', ylabel='Temperature ($^\\circ$C)'>
 
 
 
@@ -905,4 +905,119 @@ portland_ME_df.plot(x='year', y='temp', title="Average Maximum "
     
 
 
-Average Highs in Portland, Maine are on the Rise!
+
+```python
+# pandas_library_import
+import pandas as pd
+
+#Accessing climate data for portland, maine
+portland_ME_climate_data = ("https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/city/haywood/USH00176905/tmax/12/data.csv")
+
+pd.DataFrame()
+
+#Creating and Defining Portland Maine Data Frame
+portland_ME_df = pd.read_csv(portland_ME_climate_data, header = 3, names = ['year', 'month', 'temp'])
+portland_ME_df
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>year</th>
+      <th>month</th>
+      <th>temp</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1895</td>
+      <td>1</td>
+      <td>-99.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1895</td>
+      <td>2</td>
+      <td>29.7</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1895</td>
+      <td>3</td>
+      <td>32.2</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1895</td>
+      <td>4</td>
+      <td>36.9</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1895</td>
+      <td>5</td>
+      <td>42.2</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>1487</th>
+      <td>2022</td>
+      <td>12</td>
+      <td>58.4</td>
+    </tr>
+    <tr>
+      <th>1488</th>
+      <td>2023</td>
+      <td>1</td>
+      <td>39.5</td>
+    </tr>
+    <tr>
+      <th>1489</th>
+      <td>2023</td>
+      <td>2</td>
+      <td>38.7</td>
+    </tr>
+    <tr>
+      <th>1490</th>
+      <td>2023</td>
+      <td>3</td>
+      <td>40.3</td>
+    </tr>
+    <tr>
+      <th>1491</th>
+      <td>2023</td>
+      <td>4</td>
+      <td>43.9</td>
+    </tr>
+  </tbody>
+</table>
+<p>1492 rows × 3 columns</p>
+</div>
+
+
+
+## Average highs have risen slightly in the last 130 years in Portland, Maine.
